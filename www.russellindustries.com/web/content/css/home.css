@@ -1,0 +1,73 @@
+*, html, body{margin:0;padding:0;}
+body{
+	behavior: url(/js/csshover.htc);
+	font-family:arial,helvetica,sans-serif;
+	color:#000;
+	font-size: 0.84em;
+	background: #b4b8c2 url(/assets/interface/bg_home.gif) repeat-x top;
+	position:relative;
+	}
+
+#container {
+	width: 353px;
+	margin:47px auto;
+	}
+#header {
+	width: 353px;
+	height: 394px;
+	background: url(/assets/interface/bg_home_container.jpg);
+	position: relative;
+	}
+h1 {
+	text-indent: -999em;
+	background: url(/assets/interface/logo.jpg);
+	width: 267px;
+	height:158px;	
+	position: relative;
+	top: 0px;
+	left: 0px;
+	} 
+	
+/* SPLASH NAVIGATION STYLES */
+
+div#nav {
+	position: absolute;
+	bottom:0;
+	}
+div#nav a {
+	margin: 0 0 10px 0;
+	padding:0;
+	display:block;
+	text-indent:-999em;
+	width: 351px;
+	height: 29px;
+	}
+div#nav a.about {background: url(/assets/interface/btn_about.png);}
+div#nav a.services {background: url(/assets/interface/btn_services.png);}
+div#nav a.contact {background: url(/assets/interface/btn_contact.png);}	
+
+#intro {
+	background: url(/assets/interface/splash_bg_intro.jpg) no-repeat;
+	margin-top: 10px;
+	color: #fff;
+	width: 353px;
+	height: 143px;
+	font: 11px/1.1em arial,helvetica,sans-serif;
+	position: relative;
+	}
+#intro h2 {position:absolute; font: bold 14px arial;top: 12px; left:15px;margin:0;padding:0;}
+#intro p {
+	background: url(/assets/interface/separator_whiteFade.png) no-repeat left;
+	position:absolute;
+	left: 90px;
+	top: 12px;
+	width: 235px;
+	margin:0;
+	padding:3px 0 0 12px;
+	line-height: 1.3em;
+	}
+#intro strong {font-weight: normal;}
+
+
+
+

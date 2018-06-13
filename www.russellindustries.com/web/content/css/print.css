@@ -1,0 +1,90 @@
+*, html, body{margin:0;padding:0;}
+body{font-family:arial,helvetica,sans-serif;color:#000;background: #fff;position:relative;}
+
+/* ====== LAYOUT STYLES ====== */
+h1#logo {color:#000;display:block; width:100%;text-indent: 0;margin:0;padding:0;color: #333;}
+#headerWrap {display:none;}
+#navContainer {display:none;}
+
+
+#contentWrap {margin:0;padding:0;position:relative;}
+#contentWrap #bg_circleFrag {display: none;}
+
+#colLeft {width: 450px;float:left;margin: 0 65px 0 30px;}
+#colRight {float:left;}
+
+#russell {}
+.russellCo {width: 250px;height: 13em;float:left;margin:0 50px 3em 0;font-size:.9em;}
+.russellCo h3 {border-top: 4px solid #b8b8b8;border-bottom: 1px dotted #8D8D8D;padding:.2em 0 .15em 0em;font-size:1.2em;font-weight:bold;margin:0 0 .5em 0;}
+
+.right {float:right;margin:0 0 .3em 1em;}
+
+
+/* ====== FOOTER STYLES ====== */
+#footer{
+	clear:both;
+	text-align: right;
+	font-size: 11px;
+	color:#d6d6d6;
+	margin: 50px 0px 0px;
+	padding: 1em 20px; 
+	background-color:#777;
+	}
+#footer p {margin:0;}
+#footer a:link {color:#d6d6d6;}
+#footer a:visited {color:#d6d6d6;}
+#footer a:hover {color:#FFAD00;}
+#footer a:active {color:#be0101;}
+
+
+
+/* ====== LIST STYLES ====== */
+#colLeft ul {margin:5px 0 0 15px;font-size:.9em;list-style: none;}
+#colLeft li {padding:0 0 0 11px;margin-bottom:.7em;background: url(/img/bullet01.gif) no-repeat left .3em;}
+#colLeft ul li ul {font-size: 1.05em;color:#444;margin-top:.7em;}
+#colLeft ul li ul li {margin-bottom:.2em;}
+
+
+
+	/* ====== EXPERIENCE LIST STYLES ====== */
+	div#experience {}
+	div#experience ul {margin:5px 0 0 015px;font-size:11px;color:#555;list-style: none;}
+	div#experience li {float:left;padding:0 0 0 11px;margin-bottom:.3em;width:205px;background: url(/img/bullet01.gif) no-repeat left .3em;}
+
+	/* ====== CUSTOMER LOGO GRID STYLES ====== */
+	div#customers {padding-top:2em;clear:both;}
+	div#customers ul {list-style:none;margin:15px 0 0 0;}
+	div#customers li {float:left;padding: 3px 3px 20px;width: 142px;text-align:center;background:none;margin:0px 0px 0px 0px;}
+	div#customers li img {margin:auto;}
+
+
+#contactInfo {width:450px;margin-top: 50px;}
+#contactInfo div {float:left;width:30%;margin-right: 15px;}
+#contactInfo h4 {font-weight: bold;color: #0267CF;border-bottom:1px solid #a0a0a0;}
+#contactInfo p {font-size: .89em;}
+iframe {border:1px solid #666;margin-top:50px;}
+
+/* ====== TYPOGRAPHIC STYLES ====== */
+.clear {clear: both;}
+
+h2, h2, h3, h4 {font-weight:normal;}
+h2 {color: #133880;font-size: 1.8em;margin-bottom:.5em;}
+h3 {color: #0267CF;font-size: 1.1em;margin:0;border-top: 4px solid #b8b8b8;border-bottom: 1px dotted #8D8D8D;padding:.25em 0 .2em .25em;}
+h4 {}
+p {margin:.25em 0 1.5em 0;}
+a:link, a:visited {color:#3272F0;}
+a:hover {color:orange;}
+a:active {color:#990D0D;}
+a.back:link, a.back:visited, a.back:hover, a.back:active {clear:both;font-size:.9em;text-decoration: none;background: url(/img/btnBack2.gif) no-repeat left;height:16px;width:14em;border-bottom:1px solid white;display:block;padding:.21em 0 0 22px;margin:1.5em 0;}
+
+a.back strong {font-weight: normal;}
+
+/* ====== SUBSCRIBE FORM STYLES ====== */
+form#subscribe {width: 300px;}
+form#subscribe fieldset {border:0;padding-left: 20px;}
+form#subscribe legend {font-size: 1.2em;color: #0267CF;}
+form#subscribe p {font-size:.9em;color:#666;}
+form#subscribe div {margin:0 0 5px 0;}
+form#subscribe label {text-align:right;display:block;width:75px;float:left;font-size:0.9em;margin:3px 6px 0 0;}
+form#subscribe input {width: 160px;}
+form#subscribe textarea {width: 164px;}form#subscribe div.submit input {width: auto;margin: 5px 0 0 75px;}

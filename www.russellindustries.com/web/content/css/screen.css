@@ -1,0 +1,113 @@
+/*
+002e59 - navy blue
+74818c - med grey
+313940 - dark grey
+f2f2eb - light biege
+*/
+
+
+*, html, body{margin:0;padding:0;}
+html,body {border-top: 3px solid #313940;}
+body{behavior: url(/js/csshover.htc);font-family:arial,helvetica,sans-serif;color:#000;font-size: 0.8em;line-height:1.4em;background-color: #fff;position:relative;}
+
+h1 {background: url('/assets/interface/logo.gif');display: block;width:121px;height:50px;margin:30px auto 45px 0;padding: 0;text-indent: -999em;}
+
+#header {}
+
+#headerImage {height: 228px;background: url('/assets/interface/header-russell.industries.jpg') center;}
+
+#content {}
+
+img.imgwborder {padding: 3px;border: 1px solid #d1d2d1;margin-bottom: 30px;}
+
+
+/* ====== FOOTER STYLES ====== */
+#footer{
+	clear:both;
+	text-align: right;
+	font-size: 11px;
+	color:#a3a3a3;
+	margin: 50px 0px 0px;
+	padding: 1em 20px; 
+	border-top:1px solid #d6d6d6;
+	}
+#footer p {margin:0;}
+#footer a:link {color:#a3a3a3;}
+#footer a:visited {color:#a3a3a3;}
+#footer a:hover {color:#a3a3a3;}
+#footer a:active {color:#a3a3a3;}
+
+
+
+#preamble {font-size: 1.2em;line-height: 1.6em;}
+.addressBox {font-size: .9em;color: #333333;}
+.addressBox strong {color: #000000;}
+
+
+
+/* ====== TYPOGRAPHIC STYLES ====== */
+.clear {clear: both;}
+
+p,ul,li,h2,h3,h4 {font-weight:normal;margin:0 0 1em;padding: 0;}
+
+#content h2 {color: #00235f;font-size: 2.4em;}
+#content h3 {font-size: 1.2em;border-bottom: 1px dotted #8D8D8D;font-weight: bold;color: navy;margin-top:2em;}
+#content h4 {}
+
+#content p {}
+
+#content ul {margin-left: 3em;}
+#content li {padding:0;}
+
+a:link, a:visited {color:#137cce;text-decoration: none;}
+a:hover {color:#313940;}
+a:active {color:#002e59;}
+
+#content ul.membership {list-style: none;margin:0 0 3em;padding:0;overflow: auto;}
+#content ul.membership li {text-align: center;margin:0;padding:0;display: inline;width: 100px;height: 150px;float: left;font-size: .8em;line-height: 1.2em;width:225px;}
+#content ul.membership li img {}
+#content ul.membership li p {}
+
+
+
+/* ====== SUBSCRIBE FORM STYLES ====== */
+p.antispam { display:none;color: red;}
+
+
+form#subscribe {width: 300px;}
+form#subscribe fieldset {border:0;padding-left: 20px;}
+form#subscribe legend {font-size: 1.2em;color: #0267CF;}
+form#subscribe p {font-size:.9em;color:#666;}
+form#subscribe div {margin:0 0 5px 0;}
+form#subscribe label {text-align:right;display:block;width:75px;float:left;font-size:0.9em;margin:3px 6px 0 0;}
+form#subscribe input {width: 160px;}
+form#subscribe textarea {width: 164px;}form#subscribe div.submit input {width: auto;margin: 5px 0 0 75px;}
+
+
+
+
+hr.faded {
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 1px;
+  margin: 1.4em 0;
+  border: none; 
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}

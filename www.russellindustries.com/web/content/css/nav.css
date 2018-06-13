@@ -1,0 +1,96 @@
+div#navContainer {
+	position:relative;
+	width: 600px;
+	height:1.7em;
+	margin:0 auto;
+	z-index:100;
+	}
+
+ul#nav {
+	padding:0;
+	margin:0 0 0 auto;
+	list-style:none;
+	line-height: 1;/*for keeping the submenus a specific distance below the mainmenu*/
+	text-transform: uppercase;
+	font-size: 11px;
+	width:60em;
+	}
+
+ul#nav ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+	line-height: 1;/*for keeping the submenus a specific distance below the mainmenu*/
+	text-transform: none;
+	
+	}
+
+ul#nav li {
+	float:left;
+	width:12em;/*width necessary on li to keep opera happy*/
+	padding:0;
+	background-color: #ffffff;
+	margin:0;
+	}
+
+ul#nav li:hover {
+	}
+
+ul#nav a {
+	display:block;
+	width:12em;
+	border-bottom:.4em solid #d1d2d1;
+	border-left: 1px dotted #666;
+	padding: .4em 0 .3em .5em;
+	margin:0px 0px 0px 1px;
+	color:#666;
+	text-decoration:none;
+	}
+ul#nav a:hover {
+	color:#002545;
+	border-bottom:.4em solid orange;
+	}
+
+
+ul#nav ul li a {
+
+	width:12em;
+	border:0;
+	padding: .4em 0 .3em .5em;
+	margin:0;
+	color:#666;
+	text-decoration:none;
+
+	}
+ul#nav ul li a:hover {
+	display:block;
+	border-bottom:0;
+	color:#333;
+
+	}
+ul#nav li:hover {background-position: 0 0;} /* fixes sticky submenus in IE7 */
+ul#nav li ul {
+	position: absolute;
+	width: 15em;
+	left: -999em;/*move the sub menus out of sight*/
+	/*border:15px solid #fff;*/ /*white border around submenu to make the menu easier to see*/
+	/*border-top:1px;*/
+	margin-left:-.1em; /*negate space added to the submenu from border to realign the submenu under the main menu*/
+	top:2em;}
+ul#nav li ul li {width: 17em;border-top:0;border-right:1px solid #444;border-bottom:1px solid #555;border-left:1px solid #555;}
+ul#nav li ul li a{width: 17em;text-align:left;}
+ul#nav li:hover ul {
+	left: auto;/*move the sub menus back into place on hover*/
+	}
+ul#nav li:hover ul, #nav li.sfhover ul {
+	left: auto;
+	}
+#nav li ul ul {
+	margin: -1em 0 0 12em;
+	}
+#nav li:hover ul ul, #nav li.sfhover ul ul {
+	left: -999em;
+	}
+#nav li:hover ul, #nav li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul {
+	left: auto;
+	}
